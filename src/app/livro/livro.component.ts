@@ -25,7 +25,7 @@ export class LivroComponent implements OnInit {
     this.livroForm = this.fb.group({
       titulo: [''],
       autor: [''],
-      descricao: [''], // Adicionando o campo descrição aqui
+      descricao: [''], 
     });
   }
 
