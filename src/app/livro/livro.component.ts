@@ -3,14 +3,14 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { LivroService } from '../services/livro.service';
 import { Livro } from '../model/livro.model';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MatFormFieldModule } from '@angular/material/form-field'; // Importando o módulo de formulário
-import { MatInputModule } from '@angular/material/input'; // Importando o módulo de input
-import { MatTableModule } from '@angular/material/table'; // Importando o módulo da tabela
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input'; 
+import { MatTableModule } from '@angular/material/table'; 
 
 @Component({
   selector: 'app-livro',
   standalone: true,
-  imports: [ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatTableModule], // Adicionando os módulos aqui
+  imports: [ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatTableModule], 
   templateUrl: './livro.component.html',
   styleUrls: ['./livro.component.css'],
 })
