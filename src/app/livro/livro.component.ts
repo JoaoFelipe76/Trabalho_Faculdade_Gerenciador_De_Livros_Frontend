@@ -51,7 +51,7 @@ export class LivroComponent implements OnInit {
     this.livroForm.patchValue({
       titulo: livro.titulo,
       autor: livro.autor,
-      descricao: livro.descricao, // Adicionando o campo descrição ao selecionar
+      descricao: livro.descricao,
     });
     this.editMode = true;
   }
